@@ -1,1 +1,39 @@
+#**_Decimal to Binary_**
+##Here are a few things to take note of when dealing with decimal to binary conversion :
+_Divide down then raed up_
+_Don't forget to make the division all the way down to 0_
+
+###*8Example 1**
+#####**Let's begin with a random decimal number**
+264
+**STEP 1**
+The easiest way to go about doing this coversion is to repeatedly divide the number by 2 and record the remainder as you go down.
+264/2 = 132 remainder 0
+132/2 = 66 remainder 0
+66/2 = 33 reaminder 0
+33/2 = 16 remainder 1
+16/2 = 8 reaminder 0
+8/2 = 4 remainder 0
+4/2 = 2 remainder 0
+2/2 = 1 remainder 0
+1/2 = 0 remainder 1
+
+Answer = **_100001000_**
+
+#####**Example 2**
+180
+**STEPS**
+180/2 = 90 remainder 0
+90/2 = 45 remainder 0
+45/2 = 22 remainder 1
+22/2 = 11 remainder 0
+11/2 = 5 remainder 1
+5/2 = 2 remainder 1
+2/2 = 1 remainder 0
+1/2 = 0 remainder 1
+
+Answer = **_11110100_**
+
+
+
 
